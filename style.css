@@ -140,3 +140,20 @@ color: rgb(176, 176, 176);
 .contents{
   padding: 1rem ;
 }
+
+.attribution{
+  text-align: center;
+  margin-top: 1rem;
+  color: white;
+
+}
+
+.attribution a{
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+.attribution :hover{
+  color: cyan;
+  transition: .3s ease-in-out;
+}
