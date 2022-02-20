@@ -1,0 +1,21 @@
+.container{
+  width: auto;
+   margin: 20%;
+   height: auto;
+}
+
+#image{
+  height: 30rem;
+}
+
+.eyeimg{
+  display: none;
+}
+
+/* #info{
+  margin-top: 2rem;
+  } */
+
+  #paragraph h1{
+    font-size: xx-large;
+  }

@@ -1,0 +1,142 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  
+}
+
+/* images */
+
+#image {
+  text-align: center;
+  height: 18rem;
+}
+
+#image .equilibrium{
+  border-radius: 15px;
+  height: 7.54rem;
+}
+
+#image .equilibrium img{
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+
+.eyeimg{
+  opacity: 0;
+  position: absolute;
+  left: 41.1rem;
+  top: 5.99rem;
+  padding: 7.5rem;
+  padding-bottom: 7.54rem;
+  border-radius: 15px;
+  transition: .3s ease-in-out;
+}
+
+#image :hover .eyeimg{
+opacity: 1;
+transition: .3s ease-in-out;
+}
+
+#image :hover {
+  background-color: rgba(0, 255, 255, 0.552);
+  transition: .3s ease-in-out ;
+}
+
+
+/* paragraph */
+
+#paragraph h1{
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#paragraph  a{
+  color: white;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+}
+
+#paragraph a:hover{
+  color: cyan;
+  transition: .3s ease-in-out;
+
+}
+
+#paragraph p{
+color:rgb(176, 176, 176);
+margin: 1rem 0;
+}
+
+/* values */
+.values{
+  display: grid;
+  grid-template-columns: 10rem 8rem;
+}
+
+.leftStats{
+  display: grid;
+  grid-template-columns: 1.2rem 5rem;
+  color: cyan;
+  font-weight: 600;
+}
+.rightStats{
+  display: grid;
+  grid-template-columns: 1.2rem 5rem;
+  color: rgb(176, 176, 176);
+  justify-content: end;
+}
+
+.credits{
+margin-top: 1rem;
+border-top: 1px solid rgb(118, 118, 118);
+display: grid;
+grid-template-columns: 3rem 15rem;
+height: 5rem;
+align-items: center;
+color: rgb(176, 176, 176);
+}
+
+
+
+.credits .spanName a{
+  color: white;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+
+}
+
+.credits .spanName a:hover{
+  color: cyan;
+  transition: .3s ease-in-out;
+}
+
+.credits img{
+  width: 70%;
+  border: 1px solid white;
+  border-radius: 100%;
+}
+
+
+/* card */
+.container{
+  background-color:  hsl(216, 50%, 16%);
+  margin: auto;
+  margin-top: 5rem;
+  width: 20%;  
+  border-radius: 15px;
+  height: 33rem;
+  box-shadow: 0px 3px 30px rgb(0, 0, 0);
+}
+
+.contents{
+  padding: 1rem ;
+}

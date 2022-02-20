@@ -1,0 +1,14 @@
+.container{
+  width: auto;
+  margin: 1rem 1.5rem;
+  margin-top: 10vh;
+height: auto;
+}
+
+.eyeimg{
+display: none;
+}
+
+#info{
+margin-top: 3.5rem;
+}
