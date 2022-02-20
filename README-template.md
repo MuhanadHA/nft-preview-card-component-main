@@ -28,9 +28,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](/screenshots/pc view.png.jpg)
-![](/screenshots/tablet view.png.jpg)
-![](/screenshots/smartphone view.png.jpg)
+![](/screenshots/pc_view.png)
+![](/screenshots/tablet_view.png)
+![](/screenshots/smartphone_view.png)
 
 
 ### Links
@@ -49,7 +49,9 @@ Users should be able to:
 
 ### What I learned
 
-this project helped me with the review of css grids and styling, it also helped with semantic html coding, and helped with reviewing how to code responsively
+this project helped me with the review of css grids and styling, it also helped with semantic html coding, and helped with reviewing how to code responsively.
+
+I'm also learning how to write this read me template... 
 
 
 ### Continued development
